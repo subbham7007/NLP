@@ -1,0 +1,10 @@
+The steps would be:
+
+Tokenization: ["The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"]
+Lowercasing: ["the", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"]
+Remove Stopwords: ["quick", "brown", "fox", "jumps", "lazy", "dog"]
+Remove Punctuation: (None here, but if any were present, they’d be removed)
+Stemming/Lemmatization: ["quick", "brown", "fox", "jump", "lazy", "dog"] 
+Stemming :-  simply trimmind down words
+Lemmatization : Reducing the word to its family
+Rare Words Handling: (If any rare words exist, they can be removed or replaced with <UNK>)
